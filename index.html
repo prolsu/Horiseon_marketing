@@ -14,7 +14,7 @@
 
 <!-- header -->
 
-<section class="header">
+<section id="header">
     <h1>Hori<span class="seo">seo</span>n</h1>
     <div>
         <ul>
@@ -28,13 +28,13 @@
                 <a href="#social-media-marketing">Social Media Marketing</a>
             </li>
             <li>
-                <button id="default-text-size" onclick="myFunction()"><abbr title="Set Font Size: Small">S</abbr></button> 
+                <abbr title="Set Font Size: Small"><button id="small-text-size" onclick="myFunction()">S</button></abbr>
             </li>
             <li>
-                <button id="medium-text-size" onclick="myFunction()"><abbr title="Set Font Size: Medium">M</abbr></button>
+                <abbr title="Set Font Size: Medium"><button id="medium-text-size" onclick="myFunction()">M</button></abbr>
             </li>
             <li>
-                <button id="large-text-size" onclick="myFunction()"><abbr title="Set Font Size: Large">L</abbr></button>
+                <abbr title="Set Font Size: Large"><button id="large-text-size" onclick="myFunction()">L</button></abbr>
             </li>
                         
             <script type="text/javascript" src="javascript.js"></script>
@@ -77,23 +77,24 @@
     
 <!-- background image and 3 lower boxes -->
 
-<section class="content">
-    <div class="lower-box-contents" id="search-engine-optimization" >
-        <img class="float-left" src="images/search-engine-optimization.jpg" alt="SEO Notebook next to laptop"/>
+<section id="contents">
+    
+    <div class="lower-box-contents"  >
+        <img class="float-left" src="images/search-engine-optimization.jpg" alt="SEO Notebook next to laptop" id="search-engine-optimization"/>
         <h2>Search Engine Optimization</h2>
         <p class="text-content">
             The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
         </p>
     </div>
-    <div class="lower-box-contents" id="online-reputation-management" >
-        <img class="float-left" src="images/online-reputation-management.jpg" alt="User in front of their laptop"/>
+    <div class="lower-box-contents"  >
+        <img class="float-left" src="images/online-reputation-management.jpg" alt="User in front of their laptop" id="online-reputation-management"/>
         <h2>Online Reputation Management</h2>
         <p class="text-content">
             The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
         </p>
     </div>
-    <div class="lower-box-contents" id="social-media-marketing" >
-        <img class="float-left" src="images/social-media-marketing.jpg" alt="Team gathering at a desk"/>
+    <div class="lower-box-contents"  >
+        <img class="float-left" src="images/social-media-marketing.jpg" alt="Team gathering at a desk" id="social-media-marketing"/>
         <h2>Social Media Marketing</h2>
         <p class="text-content">
             Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
